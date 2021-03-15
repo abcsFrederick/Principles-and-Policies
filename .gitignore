@@ -5,3 +5,6 @@
 *.Rproj
 *.docx
 .DS_Store
+*.key
+*.pdf
+*.Rmd
