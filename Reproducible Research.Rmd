@@ -77,7 +77,7 @@ A simplified version of gitflow should be used for source code associated with s
 * feature (optional): A feature branch is created for each new feature, and work proceeds until it is complete and ready to merge into the dev branch. Depending on the complexity of the software package, feature branches may not be necessary. Each feature branch should be given a human-readable name.
 * hotfix (optional): A hotfix branch is created for each bug fix that needs to be addressed before the next release and should be associated with an issue in the issue tracker. The naming convention is the issue number and a human readable label. For example: "23-VCF-output-format".
 
-![](software.png){width=533}
+![](gitflow.png){width=533}
 
 #### 3.2.4 Documentation
 Documentation styles may vary from person to person, but should minimally include the following:
