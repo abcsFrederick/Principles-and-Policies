@@ -1,5 +1,6 @@
 ---
 title: "Reproducible research principles and policies"
+subtitle: "`r paste(c('version:', system('git log --pretty=\"%ad\" --date=short -- Reproducible\\ Research.Rmd', intern = TRUE)[1]), collapse = ' ')`"
 output: 
     word_document: default
     md_document: default
@@ -117,7 +118,7 @@ Those interested in further reading on the topic may wish to consult the followi
 * [Getting started with gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 * [Collaboration guide](https://devguide.ropensci.org/collaboration.html)
 * [Reproducibility guide](https://ropensci.github.io/reproducibility-guide/sections/introduction/)
-* [Good references (see theory papers)](https://github.com/leipzig/awesome-reproducible-research)
+* [Awesome reproducible research](https://github.com/leipzig/awesome-reproducible-research) has some good references (see theory papers)
 * [More good references](https://github.com/OpenScienceMOOC/Module-3-Reproducible-Research-and-Data-Analysis/blob/master/key_elements.md)
 * [Happy Git with R](https://happygitwithr.com/install-intro.html) (has good installation instructions)
 * The [rrtools package](https://github.com/benmarwick/rrtools) has some good tips in the README
