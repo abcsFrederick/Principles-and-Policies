@@ -73,7 +73,7 @@ Once all requisite approvals have been granted, work on the project may begin. T
 
 * Code is versioned and regular commits are pushed to GitHub.
 * Communications are logged in [AMP](https://abcs-amp.cancer.gov/).
-* All other research objects are stored in [AMP](https://abcs-amp.cancer.gov/), with the exception of large data sets.
+* All other research objects are stored in [AMP](https://abcs-amp.cancer.gov/), with the exception data sets larger than 2 Gb.
 
 Changes in scope should be brought to the attention of an ABCS representative and documented in [AMP](https://abcs-amp.cancer.gov/).
 
@@ -98,7 +98,7 @@ Monthly reports will be run on the evening of the 10th day of each month and sha
 ## Project Closeout
 When projects are completed or canceled, the following actions should be taken:
 
-* Project data should be archived (additional details needed).
+* Project data should be archived in AMP (<2 Gb file size) or HPC DME (≥2 Gb).
 * GitHub repository actions:
     * Ensure any DOIs, publication references, and/or links to archived data are included in the README.
     * Ensure the public/private status of the repository is correct.
