@@ -23,7 +23,7 @@ Auditable research in this context is primarily defined by internal replicabilit
 
 * All results are able to be duplicated exactly from raw data through publication within the limits of NCI data retention policy.
 * Documentation is included such that results duplication should be achievable by ABCS whether the original analyst is still available or not.
-* Pipeline from raw data through generation of reports is fully automated, requiring no manual steps.
+* As much as possible, pipeline from raw data through generation of reports should be fully automated, requiring no manual steps.
 * Provenance of all research objects is maintained internally. That is, chronology and origin of all research objects (data, source code, figures, tables, reports, etc...) is version controlled and available for recall.
 
 
