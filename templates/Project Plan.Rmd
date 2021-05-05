@@ -1,0 +1,73 @@
+---
+title: "*Project title*"
+subtitle: "Project Plan"
+author: "Prepared by: "
+output:
+    word_document: default
+    pdf_document: default
+knit: (function(inputFile, encoding){
+    rmarkdown::render(inputFile, encoding=encoding, output_format = 'all')})
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(knitr)
+library(dplyr)
+```
+
+|                        |                     |
+|-----------------------:|:--------------------|
+| Period of Performance: |                     |
+| Level of Effort:       | *estimated # hours* |
+
+## Executive summary
+*1 - 3 paragraph overview of the project plan*
+
+
+## Goals and Objectives
+*Description of the project scope and project goals. Be sure to include both what will be done and will not be done.*
+    
+* *Bulleted list of deliverables*
+
+
+## Methods
+*High level plan of execution, including methods, project phases, etc...*
+
+
+## Resources
+*Existing resources (who else at DMS/ABCS/NCI is doing similar work, what tools exist to do this work, ...) , cost (FTE and other expenses), roles and responsibilities of required analysts.*
+
+
+## Communications plan
+There will be two tiers of communications for this project:
+
+* Regular: Regular communications will consist meetings and presentations, as well as electronic communications such as email, figures, tables and manuscripts. All electronic communications will be logged in the Analysis Management Portal ([AMP](https://abcs-amp.cancer.gov/)) to maintain transparency.
+* Monthly report: Project summary updates will be shared in the monthly report and will include:
+    * Project status
+    * High-level scientific/technical update (1 - 2 sentences)
+    * Current issues (e.g. changing scope, changes to level of effort, anything that may lead to project failure)
+    * Other project metrics (i.e. period of performance, percent complete, actual vs planned level of effort)
+
+
+## Stakeholders
+
+```{r table}
+tibble(Affiliation = c('stakeholder affiliation'),
+       Stakeholder = c('list all stakeholders'),
+       Email = c('email'),
+       `Communication` = c('communication tier')) %>%
+    kable()
+```
+
+
+## Risks and Opportunities
+
+* Risks
+    * *Bulleted list of risks with a brief description of risk mitigation*
+* Opportunities
+    * *Bulleted list of opportunities with a brief description of opportunity enhancement*
+
+
+*electronic signatures may be included at the bottom of this document*
