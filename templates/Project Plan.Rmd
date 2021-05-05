@@ -37,7 +37,7 @@ library(dplyr)
 
 
 ## Resources
-*Existing resources, cost (FTE and other expenses), roles and responsibilities of required analysts.*
+*Existing resources (who else at DMS/ABCS/NCI is doing similar work, what tools exist to do this work, ...) , cost (FTE and other expenses), roles and responsibilities of required analysts.*
 
 
 ## Communications plan
